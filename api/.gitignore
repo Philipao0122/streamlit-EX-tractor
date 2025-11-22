@@ -1,0 +1,9 @@
+# .gitignore
+.env
+.venv/
+__pycache__/
+*.pyc
+temp/
+faiss.index
+metadata.pkl
+.vercel
