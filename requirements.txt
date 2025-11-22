@@ -1,13 +1,20 @@
+# Core
 streamlit==1.34.0
 python-dotenv==1.2.1
+
+# Document Processing
 PyMuPDF==1.26.6
 python-docx==1.1.2
-sentence-transformers==2.7.0
-faiss-cpu==1.12.0
-numpy==1.26.4
-torch==2.9.1
-transformers==4.37.4
 pytesseract==0.3.13
 Pillow==10.1.0
-requests==2.32.5
-groq==0.34.1
+pdf2image==1.17.0
+
+# ML & NLP
+torch==2.9.1
+transformers==4.37.4
+sentence-transformers==2.7.0
+faiss-cpu==1.12.0
+
+# Data Processing
+numpy==1.26.4
+opencv-python>=4.7.0
